@@ -1,5 +1,5 @@
 
-fun main() {
+fun main(arg: Array<String>) {
 
     println("Bienvenue dans cet animalerie")
 
