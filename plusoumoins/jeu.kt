@@ -13,20 +13,23 @@ fun main(args: Array<String>) {
         var tenta = readLine()
 
         if (tenta == mdp) {
+            
             if (i >2) {
                 println("Tu peux faire mieux")
-            } else if (i < 2) {
-                println("Bien joué!")
-            }
-            println("tu a reussi en $i essais")
-            println("Fin de partie")
+                
+                } else if (i < 2) {
+                    println("Bien joué!")
+                }
+                println("tu a reussi en $i essais")
+                println("Fin de partie.")
 
 
         } else if (mdp > tenta.toString()) {
-            print("C'est superieur\n")
+            println("C'est superieur.\n")
             i++
+            
         } else if (mdp < tenta.toString()) {
-            print("C'est inferieur\n")
+            println("C'est inferieur.\n")
             i++
         }
     }
